@@ -4,3 +4,18 @@
     bottom:  0;
     width:  100%;
 }
+
+.nav-container {
+    position: absolute;
+    bottom: 70px; 
+    right: 50px; 
+    z-index: 1; /* Ensure it's above the map */
+}
+
+.zoom-container {
+    position: absolute;
+    bottom: 30px; 
+    right: 50px; 
+    z-index: 1; /* Ensure it's above the map */
+}
+
